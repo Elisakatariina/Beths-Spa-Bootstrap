@@ -1,0 +1,96 @@
+/* NAVBAR tyylitiedostot alkaa tästä */
+.navbar-custom {
+    background-color: ;
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color:#cd5a95;
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(137,17,76,0.9);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+/* hampurilainen*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* NAVBAR tyylitiedostot päättyy tähän */
+
+/* Kuvakarusellin koko ja sijoitus keskelle  */
+#carouselExample {
+    width: 80%; 
+    margin: 0 auto; 
+    width: 60%;
+    height:50%;
+  }
+
+ /* Grid ruudukoiden tyylitiedostoa  */ 
+  .col{
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+  .col-sm{
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+
+/* INDEX välilehden h1 ja h2 tekstien fontit, sijainnit ja värit */
+  #spa-title {
+    font-family: 'Brush Script MT', 'cursive';
+    color: #fca9c9; /*väri */
+    margin: 0; /*  oletusmarginaalit */
+    text-align: center; /* tekstin keskitys*/
+  }
+  
+  #spa-subtitle {
+    font-family:'Courier New', monospace; /* fontti */
+    color: #cd5a95; /* väri */
+    margin: 0; /*  oletusmarginaalit */
+    text-align: center; /* tekstin keskitys*/
+  }
+
+/* AJANVARAUS kuvien pyöristykset ja blur reunojen tyylikoodit alkaa tästä */
+  .rounded-blur {
+    border-radius: 40%; /* Pyöristää kuvan reunat ympyräksi */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /*häilyvä varjo reunoille */
+    transition: box-shadow 0.3s ease-in-out; /* Pehmeä siirtymä  hover-tilassa */
+  }
+  
+  .rounded-blur:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7); /* Voimakkaampi varjo hover-tilassa */
+  }
+ /* AJANVARAUS kuvien pyöristykset ja blur reunojen koodit päättyvät tähän */ 
+
+
+ .ajanvaraus-sivu {
+  background-color: #f3f4f6; /* Koko sivun taustaväri */
+  font-family: 'Arial', sans-serif; /* Rentouttava fontti */
+}
+
+.ajanvaraus-sivu .container {
+  background-color: white; /* Valkoinen tausta */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* AJANVARAUS välilehden h1 Tervetuloa tekstin fontit, sijainnit ja värit */
+#Tervetuloa {
+  font-family: 'Courier New', monospace;/* fontti */
+  color: #080707; /* väri */
+  margin: 0; /*  oletusmarginaalit */
+  text-align: center; /* tekstin keskitys */
+}
+
+
+
